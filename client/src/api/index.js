@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/'});
+const API = axios.create({ baseURL: 'https://legendary-boba-8a7495.netlify.app/'});
 
 API.interceptors.request.use((req) => {
     if (sessionStorage.getItem("Profile")) {
