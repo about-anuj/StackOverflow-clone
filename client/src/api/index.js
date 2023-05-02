@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://yuhi.onrender.com/'});
+const API = axios.create({ baseURL: 'https://stackoverflow-backend-1bkg.onrender.com/'});
 
 API.interceptors.request.use((req) => {
     if (sessionStorage.getItem("Profile")) {
