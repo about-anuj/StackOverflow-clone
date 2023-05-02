@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://gold-handsome-dugong.cyclic.app/'});
+const API = axios.create({ baseURL: 'https://yuhi.onrender.com/'});
 
 API.interceptors.request.use((req) => {
     if (sessionStorage.getItem("Profile")) {
