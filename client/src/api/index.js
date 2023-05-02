@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://mellifluous-sawine-c6c56f.netlify.app/'});
+const API = axios.create({ baseURL: 'https://gold-handsome-dugong.cyclic.app/'});
 
 API.interceptors.request.use((req) => {
     if (sessionStorage.getItem("Profile")) {
